@@ -27,6 +27,7 @@ body {
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
+    z-index: 9;
 }
 
 /* NAV */
@@ -41,6 +42,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 
